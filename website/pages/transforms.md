@@ -31,7 +31,7 @@ let res = transform({
     Length(length) {
       return {
         unit: length.unit,
-        value: length * 2
+        value: length.value * 2
       }
     }
   }
